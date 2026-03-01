@@ -51,6 +51,9 @@ specs/
 # Personal workspace context and dev notes
 CLAUDE.md
 tasks/
+
+# Internal development workflow (not for public repo)
+workflow/
 *.mov
 *.mp4
 *.avi
