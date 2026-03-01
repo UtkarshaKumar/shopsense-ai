@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Workflow
+.workflow/
+.worktrees/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Streamlit
+.streamlit/
+
+# Backup files
+*.bak
+*.backup
+
+# Claude Code internal files
+.claude/
+
+# nohup output
+nohup.out
+
+# Specs / internal planning docs (not for public repo)
+specs/
+
+# Personal workspace context and dev notes
+CLAUDE.md
+tasks/
+*.mov
+*.mp4
+*.avi
+specs/ux_frames/

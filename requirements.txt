@@ -1,0 +1,29 @@
+# Core Framework
+streamlit>=1.28.0
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+
+# Data & API
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+httpx>=0.25.0
+aiohttp>=3.9.0
+
+# LLM Providers (install what you need)
+openai>=1.0.0           # For OpenAI and Kimi (OpenAI-compatible)
+anthropic>=0.18.0       # For Claude
+# ollama - no package needed, uses HTTP API
+
+# UI Enhancements
+# Note: Additional styling via CSS in Streamlit
+
+# Development & Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+ruff>=0.1.0
+mypy>=1.5.0
+
+# Type stubs
+types-requests>=2.31.0
